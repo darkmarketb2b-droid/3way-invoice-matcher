@@ -7,3 +7,7 @@ pillow
 pdfplumber
 
 openpyxl
+
+pytesseract
+
+openai
