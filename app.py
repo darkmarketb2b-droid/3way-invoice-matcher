@@ -81,9 +81,7 @@ SIMULATED_RESULT = {
         {"item": "SS Bolt 10mm", "issue": "Over-billing: 20 units ka bill bina receipt ke (GRN 480 vs Bill 500)."},
         {"item": "SS Bolt 10mm", "issue": "Rate mismatch: PO ₹12.00 vs Bill ₹12.50 (+4.17%)."},
     ],
-    "summary": "3 mein se 2 line items match hue. SS Bolt 10mm par qty aur rate dono mein antar hai. "
-               "Estimated excess billing ≈ ₹490 (₹250 rate difference + ₹240 unreceived qty). "
-               "Payment hold karke vendor se credit note maangna recommended hai.",
+    "summary": "3 mein se 2 line items match hue. SS Bolt 10mm par qty 
 }
 
 # =============================================================================
@@ -91,10 +89,4 @@ SIMULATED_RESULT = {
 # =============================================================================
 def to_float(v, default=0.0):
     try:
-        return float(str(v).replace(",", "").replace("₹", "").strip())
-    except (TypeError, ValueError):
-        return default
-
-
-def esc(v):
-    return html.escape(str(v if v is not None else ""))
+        return float(str(v).
