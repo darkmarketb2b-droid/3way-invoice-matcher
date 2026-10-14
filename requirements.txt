@@ -1,3 +1,9 @@
-streamlit
-pandas   
+streamlit.
+
+pandas
+
 pillow
+
+pdfplumber
+
+openpyxl
