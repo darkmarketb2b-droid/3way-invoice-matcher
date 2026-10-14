@@ -11,3 +11,5 @@ openpyxl
 pytesseract
 
 openai
+pdf2image
+
