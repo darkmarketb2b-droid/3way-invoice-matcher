@@ -1,15 +1,9 @@
 streamlit
-
 pandas
-
 pillow
-
 pdfplumber
-
 openpyxl
-
 pytesseract
-
 openai
 pdf2image
 
